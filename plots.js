@@ -30,17 +30,17 @@
 //    };
 //    Plotly.newPlot("plotArea", data, layout);
 
-  var trace = {
-    labels: ["nonalcoholic beer", "nonalcoholic wine", "nonalcoholic martini", "nonalcoholic margarita",
-    "ice tea", "nonalcoholic rum & coke", "nonalcoholic mai tai", "nonalcoholic gin & tonic"],
-    values: [22.7, 17.1, 9.9, 8.7, 7.2, 6.1, 6.0, 4.6],
-    type: 'pie'
-   };
-   var data = [trace];
-   var layout = {
-    title: "'Pie' Chart",
-   };
-   Plotly.newPlot("plotArea", data, layout);
+  // var trace = {
+  //   labels: ["nonalcoholic beer", "nonalcoholic wine", "nonalcoholic martini", "nonalcoholic margarita",
+  //   "ice tea", "nonalcoholic rum & coke", "nonalcoholic mai tai", "nonalcoholic gin & tonic"],
+  //   values: [22.7, 17.1, 9.9, 8.7, 7.2, 6.1, 6.0, 4.6],
+  //   type: 'pie'
+  //  };
+  //  var data = [trace];
+  //  var layout = {
+  //   title: "'Pie' Chart",
+  //  };
+  //  Plotly.newPlot("plotArea", data, layout);
 
    // 12.2.1 Functional JavaScript
    // The map() method
@@ -154,12 +154,3 @@ var words = ['seal', 'dog', 'scorpion', 'orangutan', 'salamander'];
 var slice3 = words.slice(3, );
 console.log(slice3)
 
-// 12.2.2 Practicing JavaScript Methods
-
-console.log(cityGrowths);
-
-// Sort and Select the Cities
-
-var sortedCities = cityGrowths.sort((a,b) =>
-a.Increase_from_2016 - b.Increase_from_2016).reverse(); 
-console.log(sortedCities);
