@@ -23,12 +23,7 @@
       <div class="col-md-2">
         <div class="well">
           <h5>Test Subject ID No.:</h5>
-          <!-- <select id="selDataset"></select> -->
-          <!-- <select id="dropdownMenu">
-            <option value="dataset1">DataSet1</option>
-            <option value="dataset2">DataSet2</option>
-          </select> -->
-          <select id="selDataset" onchange="optionChanged(this.value)"></select>
+         <select id="selDataset" onchange="optionChanged(this.value)"></select>
         </div>
         <div class="panel panel-primary">
           <div class="panel-heading">
@@ -37,6 +32,11 @@
           <div id="sample-metadata" class="panel-body"></div>
         </div>
       </div>
+      <div class="col-md-8"> <br>
+        <p class="text-justify" style="font-size: large;"> Welcome to the Belly Button Biodiversity Dashboard. Please make a selection on the Test Subjest Id no to get the 
+          Top 10 Becteria Cultures found in the belly button and how frequentlty the the belly button should be scrubs per week and Bacteria cultures per sample.
+        </p>
+      </div>
       <div class="col-md-5">
         <div id="bar"></div>
       </div>
@@ -44,6 +44,7 @@
         <div id="gauge"></div>
       </div>
     </div>
+    <div class="col-md-12"></div>
     <div class="row">
       <div class="col-md-12">
         <div id="bubble"></div>

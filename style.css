@@ -1,8 +1,9 @@
 body {
-
-   
-    
-  }
+    background-color: #808080;
+     }
+  .example {
+      background-color:#808080 ;
+     } 
   .jumbotron {
     background-image: url("Belly_button.jpg");
     background-size: 100% 100%;
